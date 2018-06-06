@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation = "vertical"
+android:gravity = "center"
+tools:context="com.example.android.crazymocha.MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text = "Crazy Mocha"
+    android:textStyle = "bold"
+    android:gravity = "center"
+    android:textSize = "24sp"
+    android:textColor = "@android:color/holo_red_dark" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text = "2100 Murray Avenue"
+    android:textStyle = "bold"
+    android:gravity = "center"
+    android:textSize = "24sp"
+    android:textColor = "@android:color/holo_red_dark"/>
+
+<TextView
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:text = "Pittsburgh, PA 15217"
+    android:textStyle = "bold"
+    android:gravity = "center"
+    android:textSize = "24sp"
+    android:textColor = "@android:color/holo_red_dark"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text = "412-521-1056"
+    android:textStyle = "bold"
+    android:gravity = "center"
+    android:textSize = "24sp"
+    android:textColor = "@android:color/holo_red_dark"/>
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src = "@drawable/crazymocha"
+    android:scaleType = "centerCrop"/>
+
+</LinearLayout>
